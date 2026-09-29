@@ -1,95 +1,25 @@
-# Tale Blog
+# tale
 
-![Tale](https://ooo.0o0.ooo/2017/02/27/58b43450c9182.png)
+本仓库是「tale」的安卓版本获取入口，附使用资料索引。
 
+## 安装文件资源（夸克网盘）
 
-## 特性
+> **tale 安装文件资源（夸克网盘）**：[https://pan.quark.cn/s/f86ae91c97e5](https://pan.quark.cn/s/f86ae91c97e5)
 
-+ 设计简洁，界面美观
-+ Markdown 文章发布
-+ 自定义文章链接
-+ 支持多主题
-+ 支持插件扩展
-+ 支持 Emoji 表情
-+ 支持网易云音乐播放
-+ 支持附件和数据库备份
-+ 部署简单，不依赖 Tomcat
-+ 无需数据库，内嵌 Sqlite
+## 官方项目
 
-## 界面预览
+- 上游项目：[tfssweb/tale](https://github.com/tfssweb/tale)
 
-![001](https://raw.githubusercontent.com/tfssweb/tfssweb.github.io/master/source/images/blog/001.png)
-![002](https://raw.githubusercontent.com/tfssweb/tfssweb.github.io/master/source/images/blog/002.png)
-![003](https://raw.githubusercontent.com/tfssweb/tfssweb.github.io/master/source/images/blog/003.png)
-![004](https://raw.githubusercontent.com/tfssweb/tfssweb.github.io/master/source/images/blog/004.png)
-![005](https://raw.githubusercontent.com/tfssweb/tfssweb.github.io/master/source/images/blog/005.png)
-![006](https://raw.githubusercontent.com/tfssweb/tfssweb.github.io/master/source/images/blog/006.png)
-![007](https://raw.githubusercontent.com/tfssweb/tfssweb.github.io/master/source/images/blog/007.png)
+## 更多资料
 
+- [下载与安装教程](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/tale/%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.md)
+- [剪辑功能使用技巧](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/tale/%E5%89%AA%E8%BE%91%E5%8A%9F%E8%83%BD%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7.md)
+- [剪辑卡顿与手机发烫怎么办](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/tale/%E5%89%AA%E8%BE%91%E5%8D%A1%E9%A1%BF%E4%B8%8E%E6%89%8B%E6%9C%BA%E5%8F%91%E7%83%AB%E6%80%8E%E4%B9%88%E5%8A%9E.md)
+- [导出画质模糊怎么解决](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/tale/%E5%AF%BC%E5%87%BA%E7%94%BB%E8%B4%A8%E6%A8%A1%E7%B3%8A%E6%80%8E%E4%B9%88%E8%A7%A3%E5%86%B3.md)
+- [常见问题与解决方法](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/tale/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95.md)
+- [模板一键制作与导出保存](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/tale/%E6%A8%A1%E6%9D%BF%E4%B8%80%E9%94%AE%E5%88%B6%E4%BD%9C%E4%B8%8E%E5%AF%BC%E5%87%BA%E4%BF%9D%E5%AD%98.md)
+- [全部软件目录](https://github.com/alipymanbu/Android/blob/master/%E5%85%A8%E9%83%A8%E8%BD%AF%E4%BB%B6%E7%9B%AE%E5%BD%95.md)
 
-## 如何使用
-直接`Fork`到自己的GitHub使用（<b style="size:28px;">给个`Star`鼓励哦！</b>）；
+---
 
-或者
-
-将代码克隆到本地，执行：
-```
-git clone https://github.com/tfssweb/tale.git
-``` 
-然后进入到`docker`目录，依次执行：
-```
-cp -r ./tfss_volumes/ /opt/
-
-docker-compose up -d
-```
-（注意以此方式部署你得需要docker环境）
-即可！
-
-有开发/部署问题的可以进<b style="color:red;">QQ群（247158514）</b>,之后的教程录像也会上传到群文件中！
-## 视频教程目录
-001、Docker环境下部署博客教程录像<br/>
-待续...
-
-## 近期提交
-
-<p>2018-02-06</p>
-
-- 新增客服小图标，效果请看 [颓废书生](http://www.tfss.me/)
-
-<p>2018-01-06</p>
-
-- 将首页修改时间改为创建时间
-
-<p>2018-01-05</p>
-
-- 添加商城模块（默认是关闭的，需要二次开发的可以在/tale/src/main/resources/templates/themes/default/partial/footer.html 放开相关代码）
-![008](https://raw.githubusercontent.com/tfssweb/tfssweb.github.io/master/source/images/blog/008.png)
-
-<p>2017-12-31</p>
-
-- 优化归档显示；<br/>
-- 更换20张缩略图；<br/>
-
-
-## 开源协议
-
-本代码以[biezhi](https://github.com/otale/tale)代码为基础作为二次开发，现主要关注于博客的Docker部署、前端界面优化以及插件的开发，所以有志同道合的朋友可以一起探讨！
-
-<b style="color:red;">QQ群（247158514）</b>
-
-[MIT](LICENSE)
-
-## 感谢
-
-	如果说我比别人看得更远些,那是因为我站在了巨人的肩上.
-											——牛顿 
-再次感谢为开源而努力的朋友！！
-
-+ [biezhi](https://github.com/otale/tale)
-
-
-
-
-
-
-
+> 本仓库由上游项目 fork 而来，原始说明见[上游仓库](https://github.com/tfssweb/tale)。
